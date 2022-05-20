@@ -1,0 +1,6 @@
+{
+  "plugins": ["jest-dom", "testing-library"],
+  "extends": ["plugin:testing-library/react"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": { "requireConfigFile": false }
+}
