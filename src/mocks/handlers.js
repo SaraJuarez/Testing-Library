@@ -5,7 +5,7 @@ export const handlers = [
     return res(
       ctxt.json([
         { name: "Chocolate", imagePath: "images/chocolate.png" },
-        { name: "Vainilla", imagePath: "images/vanilla.png" },
+        { name: "Vanilla", imagePath: "images/vanilla.png" },
       ])
     );
   }),

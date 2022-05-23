@@ -10,6 +10,26 @@ function Options(props) {
     getInfo();
   }, [optionType]);
 
+  /*   function reduce(fraction) {
+    let variable = 15;
+    let prueba = variable % 2 === 0;5555555555555
+
+    console.log(prueba);
+
+    let cosa = fraction.reduce((previousValue, currentValue, index) => {
+      console.log(previousValue);
+      console.log(currentValue);
+      console.log(index);
+      debugger;
+      let divisor = index + 1;
+      if (previousValue % divisor === 0 && currentValue % divisor === 0) {
+        console.log(fraction[0]);
+        return previousValue / divisor;
+      }
+    });
+  }
+
+  reduce([60, 20]); */
   const getInfo = async () => {
     await axios
       .get(`http://localhost:3030/${optionType}`)
